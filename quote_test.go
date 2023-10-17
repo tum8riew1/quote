@@ -11,7 +11,7 @@ func TestSay(t *testing.T) {
 }
 
 func TestSpeak(t *testing.T) {
-	want := "Hi, mate"
+	want := "Hi, Mate"
 
 	if got := Speak(); got != want {
 		t.Errorf("Speak() = %q , want : %q", got, want)
